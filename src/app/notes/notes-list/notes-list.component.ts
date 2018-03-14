@@ -28,4 +28,8 @@ export class NotesListComponent implements OnInit {
     this.content = '';
   }
 
+  //Added this
+  uploadCoverPhoto(){
+
+  }
 }

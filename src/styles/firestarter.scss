@@ -127,7 +127,10 @@ a {
 
 // My edited css
 
-.fit{
-  max-width:40%;
-  max-height:100%;
+#coverPhoto{
+  background: url(assets/images/akashi.jpg);
+  height: 200px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
 }

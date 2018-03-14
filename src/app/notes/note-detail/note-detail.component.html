@@ -4,8 +4,10 @@
     Like <i class="fa fa-heart"></i>
   </span>
   <span class="button is-small is-info" (click)='sadHeartToNote(note.hearts)'>
-    Dislike <i class="fa fa-heart"></i>
+    Dislike <i class="fa fa-thumbs-down"></i>
   </span>
-  <span class="button is-small is-danger" (click)='deleteNote(note?.id)'>Delete</span>
+  <span class="button is-small is-danger" (click)='deleteNote(note?.id)'>
+    Delete <i class="fa fa-trash"></i>
+  </span>
   <p>This note has been hearted {{ note.hearts || 0 }} times.</p>
 </div>

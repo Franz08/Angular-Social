@@ -1,8 +1,11 @@
-<div class="fit">
-  <img src="assets/images/angularfirebase.png" alt="timeline-photo">
+<h1>Welcome to your Profile</h1>
+
+<div id="coverPhoto">
+  <button class="button is-info pull-right" (click)="uploadCoverPhoto()" style="margin:2px;">
+      Upload Cover Photo
+  </button>
 </div>
 
-<h1>Welcome to your Profile</h1>
 <p>Here are Your Posts.</p>
 
 <input [(ngModel)]="content" placeholder="What's on your mind?" class="input">
