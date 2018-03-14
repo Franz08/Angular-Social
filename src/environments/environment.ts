@@ -1,11 +1,11 @@
 export const environment = {
     production: false,
     firebaseConfig: {
-        apiKey: "AIzaSyAn9SQBuvTtoQhNl-Ot5EDXQChkqoQeIDw",
-        authDomain: "firestarter-char.firebaseapp.com",
-        databaseURL: "https://firestarter-char.firebaseio.com",
-        projectId: "firestarter-char",
-        storageBucket: "firestarter-char.appspot.com",
-        messagingSenderId: "206115761017"
+        apiKey: "AIzaSyAZGZzJ0Mwmb6iGh-Mjt31gD1w4BJjDp6M",
+        authDomain: "angular-social-45b6a.firebaseapp.com",
+        databaseURL: "https://angular-social-45b6a.firebaseio.com",
+        projectId: "angular-social-45b6a",
+        storageBucket: "",
+        messagingSenderId: "21930298963"
     }
 };

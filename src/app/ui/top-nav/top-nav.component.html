@@ -16,15 +16,15 @@
   <!-- This "nav-menu" is hidden on mobile -->
   <!-- Add the modifier "is-active" to display it on mobile -->
   <div class="nav-right nav-menu" [ngClass]="{'is-active': show}">
-    <a class="nav-item" routerLink="/notes">
+    <a class="nav-item" routerLink="/notes"><!--This will serve as Profile-->
       Profile
     </a>
-    <a class="nav-item" routerLink="/items">
+    <a class="nav-item" routerLink="/items"><!--This will serve as Feeds and Activities-->
       Feeds
     </a>
-    <!-- <a class="nav-item" routerLink="/uploads">
+    <a class="nav-item" routerLink="/uploads"><!--This will serve as Gallery-->
       Gallery
-    </a> -->
+    </a>
     <a class="nav-item" routerLink="/login">
       Login
     </a>

@@ -14,6 +14,7 @@
 <button class="button is-success" (click)="createNote()" [disabled]="content?.length < 2 || content?.length > 200">
   Post
 </button>
+
 <hr>
 <div *ngFor="let note of notes | async">
   <note-detail [note]="note"></note-detail>

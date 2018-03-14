@@ -32,4 +32,9 @@ export class NotesListComponent implements OnInit {
   uploadCoverPhoto(){
 
   }
+
+  // currentTimeStamp() {
+  //   const date = new Date().getTime();
+  // }
+
 }
